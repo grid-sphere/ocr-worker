@@ -1,8 +1,11 @@
+runpod
+requests
 transformers==4.46.3
 tokenizers==0.20.3
 PyMuPDF
+Pillow
 einops
 easydict
 addict
-runpod
-requests
+safetensors
+
