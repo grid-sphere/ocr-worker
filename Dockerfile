@@ -4,7 +4,8 @@ WORKDIR /app
 
 ENV PYTHONUNBUFFERED=1
 ENV PYTHONDONTWRITEBYTECODE=1
-ENV HF_HOME=/root/.cache/huggingface
+ENV HF_HOME=/runpod-volume/huggingface
+ENV HF_HUB_CACHE=/runpod-volume/huggingface/hub
 
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
