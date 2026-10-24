@@ -8,4 +8,4 @@ einops
 easydict
 addict
 safetensors
-
+accelerate>=0.26.0
